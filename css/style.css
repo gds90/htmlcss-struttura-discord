@@ -12,8 +12,19 @@ header {
 /* footer  */
 footer {
     background-color: rgb(27, 25, 25);
-    height: 600px;
+
     padding-top: 10px;
+}
+
+.footer-top {
+    padding-bottom: 30px;
+}
+
+.footer-bottom {
+    width: 100%;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding-top: 20px;
 }
 
 /* bordi dashed */
@@ -28,6 +39,7 @@ footer {
 .container-1 {
     width: 800px;
     margin: 0 auto;
+    height: 70px;
 }
 
 .container-2 {
@@ -53,6 +65,8 @@ footer {
 /* layout */
 .row {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .col-20{
@@ -136,7 +150,7 @@ li {
 
 }
 
-/* paddin */
+/* padding */
 .padding-10 {
     padding:10px;
 }
