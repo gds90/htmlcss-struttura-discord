@@ -9,9 +9,19 @@ header {
     background-color: lightskyblue;
 }
 
-/* bordo dashed */
+/* footer  */
+footer {
+    background-color: rgb(27, 25, 25);
+    height: 600px;
+    padding-top: 10px;
+}
+
+/* bordi dashed */
 .db-black{
     border: 1px dashed black;
+}
+.db-white{
+    border: 1px dashed white;
 }
 
 /* containter */
@@ -43,6 +53,11 @@ header {
 /* layout */
 .row {
     display: flex;
+}
+
+.col-20{
+    width: calc(25%);
+    height:400px;
 }
 
 .col-25{
@@ -99,6 +114,14 @@ header {
 
 .bg-lightblue {
     background-color: lightblue;
+}
+
+.bg-tiffany {
+    background-color: rgb(33, 209, 209);
+}
+
+.bg-aquamarine{
+    background-color: aquamarine;
 }
 
 /* lista  */
