@@ -4,15 +4,17 @@
     box-sizing: border-box;
 
 }
-
+/* header  */
 header {
     background-color: lightskyblue;
 }
 
+/* bordo dashed */
 .db-black{
     border: 1px dashed black;
 }
 
+/* containter */
 .container-1 {
     width: 800px;
     margin: 0 auto;
@@ -38,6 +40,7 @@ header {
     margin: 0 auto;
 }
 
+/* layout */
 .row {
     display: flex;
 }
@@ -60,12 +63,17 @@ header {
     height: 400px;
 }
 
-.col-100{
+.col-100a{
+    width:calc(100%);
+    height: 300px;
+}
+
+.col-100b{
     width:calc(100%);
     height: 600px;
 }
 
-
+/* background */
 .bg-orange {
     background-color: orange;
 }
@@ -93,6 +101,7 @@ header {
     background-color: lightblue;
 }
 
+/* lista  */
 ul {
     display: flex;
     list-style: none;
@@ -104,6 +113,7 @@ li {
 
 }
 
+/* paddin */
 .padding-10 {
     padding:10px;
 }
