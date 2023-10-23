@@ -8,13 +8,14 @@
 /* header  */
 header {
     background-color: lightskyblue;
-    border-bottom: 3px solid lightskyblue;
+    padding: 10px auto;
+    height: 75px;
 }
 
 /* footer  */
 footer {
     background-color: rgb(27, 25, 25);
-    padding-top: 10px;
+    padding: 10px 0;
 }
 
 .footer-top {
@@ -26,7 +27,7 @@ footer {
     width: 100%;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
-    padding-top: 20px;
+    padding: 20px 0;
 }
 
 /* bordi dashed */
@@ -39,29 +40,24 @@ footer {
 
 /* containter */
 .container-1 {
-    width: 800px;
-    margin: 0 auto;
-    height: 70px;
+    max-width: 1200px;
 }
 
 .container-2 {
-    width: 600px;
+    max-width: 991px;
     height: 300px;
-    margin: 0 auto;
     background-color: palevioletred;
 }
 
 .container-3 {
-    width: 800px;
+    max-width: 1200px;
     height: 400px;
-    margin: 0 auto;
 }
 
 .container-4 {
     background-color: green;
     height: 600px;
-    width: 800px;
-    margin: 0 auto;
+    width: 1200px;
 }
 
 .containter-5 {
@@ -76,36 +72,33 @@ footer {
     height: 100%;
 }
 
-.col-20{
-    width: calc(20%);
-    height:400px;
+.col-15{
+    width: 15%;
+    height:100%;
 }
 
 .col-25{
-    width: calc(25%);
+    width: 25%;
+    height: 100%;
 }
 
 .col-50{
-    width: calc(50%);
+    width: 50%;
+    height: 100%;
 }
 
 .col-40{
-    width: calc(40%);
+    width: 40%;
     height: 100%;
 }
 
 .col-60{
-    width: calc(60%);
+    width: 60%;
     height: 100%;
 }
 
-.col-100a{
-    width:calc(100%);
-    height: 100%;
-}
-
-.col-100b{
-    width: 100%;
+.col-100{
+    width:100%;
     height: 100%;
 }
 
@@ -174,4 +167,12 @@ li {
 
 .justify-content-sb {
     justify-content: space-between;
+}
+
+.height-50 {
+    height: 50px;
+}
+
+.margin-container {
+    margin: 0 auto;
 }
